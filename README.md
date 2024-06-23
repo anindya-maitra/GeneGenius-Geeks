@@ -2,44 +2,4 @@
 This repository is for the ACM kolkata  2024 competition. The project title is: "ANALYSIS OF SIGNALLING PATHWAYS FOR MULTIPLE FAULT SIMULATION AND DRUG THERAPY USING DYNAMIC BAYESIAN NETWORK BASED MODEL AND GPU-ACCELERATED BASED APPROACH"
 
 # Approach
-The objective of the project is to explore the use of GPU Acceleration in Drug
-Application on Signaling Pathways Containing Multiple Faults utilizing Dynamic
-Bayesian Networks for modelling and analysis.
-It aims at modelling a Dynamic Bayesian Network (DBN) representing the Growth
-Factor (GF) and MAPK Signalling pathways, introduce faults, apply drugs to the
-faulty nodes and identify effective custom drugs for inhibition of faults.
-The project aims to develop a scalable and efficient GPU-accelerated framework for
-simulating DBNs that model temporal dependencies and interactions within
-signaling pathways containing multiple faults. Compare the performance and
-scalability of the GPU-accelerated and CPU-based methods. Demonstrate the
-effectiveness of the proposed approach in identifying potential drug candidates for
-pathway restoration.
-DBNs provide a probabilistic framework for modeling and analysing the dynamics
-of signaling pathways having multiple genetic faults on pathway behaviour.
-However, as the number of faults and the size of the pathway increase, the
-computational demands for analysis become substantial. Graphics Processing Units
-(GPUs) offer massive parallel processing capabilities, making them well-suited for
-this project.
-Modeling of the DBN for GF and MAPK Signaling Pathways is done by using a
-Directed Acyclic Graph(DAG). Each node and edge representing a Protein and the
-Protein-Protein Interaction respectively. The Conditional Probability Data of each
-node is also provided. The GF Proteins are the root nodes, the Transcription Factor
-and Residual Proteins are the leaf nodes and the remaining proteins of the signaling
-pathway are represented by the internal nodes. Faults are introduced by changing
-the Conditional Probability Data of the Faulty Nodes and the Faulty Output Vector
-is compared to the Faultless output of all 0’s. The Known Drugs are applied in
-combination to their Inhibition Points and the corresponding Output Vectors are
-generated. These are converted to encoded weight which is used for scoring.
-Encoding is a computationally intensive task thus, GPU is implemented by the
-PyCuda Library Module of Python. Customed drugs are simulated and compared
-against the known drug combinations on the basis of the efficiency_scores.
-GPU Accelerated Drug Application On Signaling Pathways Containing Multiple Faults Using
-Dynamic Bayesian Networks
-4
-Optimization techniques are applied to the application of drugs to the faulty nodes.
-The graphical representations of the optimized values help to achieve the same more
-efficiently. The user interface is designed so that the user can inquiry the graphs and
-plots related to the project in a simple, effective and efficient manner.
-Parallel execution of independent drug application jobs would help us to obtain re-
-sults in a much faster time frame. Custom nodes in the DBN are chosen as drug
-inhibition points for more efficient results than known drugs.
+Our project investigates cell growth regulation and its disruptions, leading to uncontrolled cell division and apoptosis- key features of cancerous conditions. We use Dynamic Bayesian Networks (DBNs) to model these disruptions and simulate the intricate dynamics of cancer. Our ultimate aim is to develop a GPU-accelerated drug application that can identify and target multiple faults in signaling pathways, leading to the discovery of custom drug combinations that effectively inhibit these faults. This enables the discovery of custom drug combinations that effectively inhibit them. Modelling these faults reveals the complexity of concurrent dysfunctions. Cell growth regulation is a highly complex process controlled by a multitude of signaling pathways that ensure balanced cell proliferation and programmed cell death (apoptosis). When these pathways malfunction, it can result in cancer, characterized by uncontrolled cell growth and evasion of apoptosis. Traditional approaches to understanding and treating these conditions have often fallen short due to the complexity and concurrent nature of multiple pathway disruptions. Thus, there is a critical need for more sophisticated computational methods to model these conditions and develop effective treatments. So, we develop GPU-accelerated drug applications using DBNs to identify and target multiple faults in modelled pathways, discover custom drug combinations for inhibition, and enhance drug efficacy in treating cancer. The efficiency_score parameter identifies optimized drug combinations without prior knowledge of specific malfunctions. GPU acceleration enhances speed and efficiency for identifying drug combinations that score higher than known ones for pathway restoration and control of untriggered cell division. One of the significant advantages of our approach is its ability to uncover synergistic effects between drugs that might be missed by traditional screening methods. Cancer treatment often requires a combination of drugs to tackle the disease's multifaceted nature, and our method is particularly adept at identifying such combinations. By simulating the concurrent effects of multiple drugs on the modelled pathways, we can pinpoint interactions that lead to enhanced therapeutic outcomes. The implications of our work extend beyond just identifying effective drug combinations. By providing a more nuanced understanding of the multiple fault dynamics within signaling pathways, our models can offer insights into the underlying mechanisms of cancer progression. This knowledge can inform the development of new therapeutic strategies and guide experimental research. Thus, our approach offers improved drug efficacy in treating conditions like cancer, potentially leading to more effective therapies.
