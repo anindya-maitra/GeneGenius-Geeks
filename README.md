@@ -10,9 +10,9 @@ Our project investigates cell growth regulation and its disruptions, leading to 
 # Proposed Solution
 1. Dynamic Bayesian Network Modeling
 Modeling of the Dynamic Bayesian Network for Growth Factor Signaling Pathway and MAPK Signaling Pathway using a Directed Acyclic Graph and corresponding Conditional Probabilities related to it.
-
 1.1	Obtain related data and model the Dynamic Bayesian Network
 FLOWCHART:
+
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/5765a81c-2035-4e92-b8e4-2b45d2c935fb)
 
 
