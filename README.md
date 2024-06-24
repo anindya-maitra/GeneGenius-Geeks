@@ -9,6 +9,7 @@ Our project investigates cell growth regulation and its disruptions, leading to 
 
 # Proposed Solution
 1. Dynamic Bayesian Network Modeling
+
 Modeling of the Dynamic Bayesian Network for Growth Factor Signaling Pathway and MAPK Signaling Pathway using a Directed Acyclic Graph and corresponding Conditional Probabilities related to it.
 
 1.1	Obtain related data and model the Dynamic Bayesian Network
@@ -24,6 +25,7 @@ FLOWCHART:
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/4f226f7f-9eb2-40de-b531-5c0772685c8b)
 
 2.	Fault Modeling
+
 Faults are introduced in the Signaling pathway by changing the Conditional Probability Data of the Internal Faulty Nodes and the Faulty Output Vector is compared to the Faultless output of all 0’s.
 
 FLOWCHART:
@@ -31,6 +33,7 @@ FLOWCHART:
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/24f6e9b6-e5f0-4a00-9eff-2fd7e0fe903c)
 
 3. Application of Known Drugs
+
 The Known Drugs are applied in combination to their Inhibition Points that are the faulty internal nodes and the corresponding Output Vectors are generated.
 
 3.1.	Application of drugs to faulty nodes and data generation 
@@ -53,14 +56,16 @@ FLOWCHART:
 
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/2ea7f969-916d-411d-b673-ebbf3e21bb66)
 
-5.	Searching for Custom Drugs Inhibition Points
+4.	Searching for Custom Drugs Inhibition Points
+
 Customed drugs are simulated and compared against the known drug combinations on the basis of the efficiency_scores.
 
 FLOWCHART:
 
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/955d1f9f-bbd3-4d1c-befe-76271cbf5b1d)
 
-6.	Optimization
+5.	Optimization
+
 Optimization techniques are applied to the application of drugs to the faulty nodes. The graphical representations of the optimized values help to achieve the same more efficiently.
 
 FLOWCHART:
