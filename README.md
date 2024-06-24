@@ -22,27 +22,47 @@ FLOWCHART:
 FLOWCHART:
 
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/4f226f7f-9eb2-40de-b531-5c0772685c8b)
-3.	Fault Modeling
+
+2.	Fault Modeling
 Faults are introduced in the Signaling pathway by changing the Conditional Probability Data of the Internal Faulty Nodes and the Faulty Output Vector is compared to the Faultless output of all 0’s.
+
 FLOWCHART:
+
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/24f6e9b6-e5f0-4a00-9eff-2fd7e0fe903c)
-4. Application of Known Drugs
+
+3. Application of Known Drugs
 The Known Drugs are applied in combination to their Inhibition Points that are the faulty internal nodes and the corresponding Output Vectors are generated.
+
 3.1.	Application of drugs to faulty nodes and data generation 
+
 FLOWCHART:
+
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/3a6abe56-a091-4cfb-887f-b303a69730f2)
+
 3.2.	Encoding and Parallelization
+
 FLOWCHART:
+
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/b7361f85-3fa3-4ff9-b3e3-60c737a922e8)
+
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/e0a7fd5f-b647-4fa6-bad2-028f255fcdb2)
+
 3.3.	Scoring
+
 FLOWCHART:
+
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/2ea7f969-916d-411d-b673-ebbf3e21bb66)
+
 5.	Searching for Custom Drugs Inhibition Points
 Customed drugs are simulated and compared against the known drug combinations on the basis of the efficiency_scores.
+
 FLOWCHART:
+
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/955d1f9f-bbd3-4d1c-befe-76271cbf5b1d)
+
 6.	Optimization
 Optimization techniques are applied to the application of drugs to the faulty nodes. The graphical representations of the optimized values help to achieve the same more efficiently.
+
 FLOWCHART:
+
 ![image](https://github.com/anindya-maitra/GeneGenius-Geeks/assets/85032238/2d330f55-2ed0-44a2-9bc0-defff2c837c0)
